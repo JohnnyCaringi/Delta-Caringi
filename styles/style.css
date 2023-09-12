@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Maven+Pro&display=swap');
+
+body{
+    background-image:url('https://www.wowpatterns.com/assets/files/resource_images/festival-seamless-pattern.png');
+}
+
+h1{
+    color:#3f2153;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h4{
+    color:#3f2153;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=submit]{
+    background-color:#f24074;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
