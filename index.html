@@ -9,14 +9,27 @@
     </head>
 
     <body>
-        <div class="container-fluid">
+        <header>
             <h1>What is your spirit animal?</h1>
-            <br><br>
+        </header>
+
+        <div class="container-fluid">
+            <br>
             <h4>Enter your first name</h4>
             <input type="text" id="name">
             <input type="submit" id="submit">
         </div>
 
+        <div class="container-fluid text-center col-sm-6">
+            <br><br><br>
+            <h2 id="animalTitle"></h2>
+            <br>
+            <p id="animalDesc"></p>
+        </div>
+
+        <footer>
+            <p>Spirit animal descriptions from <a href="https://www.primalastrology.com/animal-spirit-chart.html">Primal Astrology</a></p>
+        </footer>
 
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="scripts/script.js"></script>

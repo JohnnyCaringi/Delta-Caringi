@@ -4,10 +4,25 @@ body{
     background-image:url('https://www.wowpatterns.com/assets/files/resource_images/festival-seamless-pattern.png');
 }
 
+header{
+    background-color: #f24074;
+    padding: 10px;
+}
+
+footer{
+    background-color: #fdfaf1;
+}
+
 h1{
-    color:#3f2153;
+    color:#ffffff;
     text-align:center;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+    color:#6a398a;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fdfaf1;
 }
 
 h4{
@@ -20,4 +35,15 @@ input[type=submit]{
     color: white;
     border-radius: 10px;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+    color:#6a398a;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fdfaf1;
+}
+
+a{
+    color: #f24074;
+    hover:
 }
